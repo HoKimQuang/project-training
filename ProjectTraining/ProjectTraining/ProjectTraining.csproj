@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.1" />
+    <PackageReference Include="DataTables.AspNet.AspNetCore" Version="2.0.2" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.5.0-preview2" />
+    <PackageReference Include="JqueryDataTables.ServerSide.AspNetCoreWeb" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.0.0-dev-00058" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="2.0.0-dev-00032" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.2-dev-00800" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.1.0-dev-00838" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Logs" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\FillterExp\Expired.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\FillterExp\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Base\Allow.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\Base\FilterExpired.cshtml" />
+  </ItemGroup>
+</Project>

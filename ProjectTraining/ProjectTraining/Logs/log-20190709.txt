@@ -1,0 +1,32 @@
+2019-07-09 09:15:15.332 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-09 09:16:34.523 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-09 09:16:45.343 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-09 09:21:02.057 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-09 09:21:20.174 +07:00 [ERR] 404! Page not found
+2019-07-09 13:23:23.214 +07:00 [ERR] 401! Unauthorized
+2019-07-09 13:23:36.321 +07:00 [ERR] 401! Unauthorized
+2019-07-09 13:26:21.768 +07:00 [ERR] 401! Unauthorized
+2019-07-09 13:26:23.742 +07:00 [ERR] 401! Unauthorized
+2019-07-09 13:26:28.104 +07:00 [ERR] 401! Unauthorized
+2019-07-09 13:50:23.137 +07:00 [ERR] 401! Unauthorized
+2019-07-09 13:50:39.539 +07:00 [ERR] 401! Unauthorized
+2019-07-09 14:15:08.774 +07:00 [ERR] Tên đăng nhập hoặc mật khẩu không đúng
+2019-07-09 14:34:47.576 +07:00 [ERR] 401! Unauthorized
+2019-07-09 14:34:53.521 +07:00 [ERR] 401! Unauthorized
+2019-07-09 14:35:54.000 +07:00 [ERR] 401! Unauthorized
+2019-07-09 14:36:26.902 +07:00 [ERR] 401! Unauthorized
+2019-07-09 14:36:27.720 +07:00 [ERR] 401! Unauthorized
+2019-07-09 14:36:47.304 +07:00 [ERR] 401! Unauthorized
+2019-07-09 14:36:48.160 +07:00 [ERR] 401! Unauthorized
+2019-07-09 14:37:01.076 +07:00 [ERR] 401! Unauthorized
+2019-07-09 15:06:54.744 +07:00 [ERR] Something went wrong: System.InvalidOperationException: No authentication handler is registered for the scheme 'JwtBearerDefaults.AuthenticationScheme'. The registered schemes are: Cookies, Bearer. Did you forget to call AddAuthentication().Add[SomeAuthHandler]("JwtBearerDefaults.AuthenticationScheme",...)?
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authorization.Policy.PolicyEvaluator.AuthenticateAsync(AuthorizationPolicy policy, HttpContext context)
+   at Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at ProjectTraining.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Middleware/ExceptionHandlerMiddleware.cs:line 38
+2019-07-09 15:06:54.824 +07:00 [INF] 200
+2019-07-09 15:21:53.093 +07:00 [ERR] 401! Unauthorized

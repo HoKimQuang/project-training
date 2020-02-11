@@ -1,0 +1,165 @@
+2019-07-05 09:54:23.239 +07:00 [INF] OnActionExecuting: 
+2019-07-05 09:55:11.634 +07:00 [INF] OnActionExecuting: 
+2019-07-05 09:55:11.795 +07:00 [ERR] Something went wrong: System.InvalidOperationException: The view 'FilterExpired' was not found. The following locations were searched:
+/Views/Home/FilterExpired.cshtml
+/Views/Shared/FilterExpired.cshtml
+/Pages/Shared/FilterExpired.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at ProjectTraining.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Middleware/ExceptionHandlerMiddleware.cs:line 37
+2019-07-05 09:55:11.796 +07:00 [INF] 200
+2019-07-05 09:59:48.794 +07:00 [INF] OnActionExecuting: 
+2019-07-05 09:59:51.794 +07:00 [INF] OnActionExecuting: 
+2019-07-05 10:00:59.781 +07:00 [INF] OnActionExecuting: 
+2019-07-05 10:01:41.946 +07:00 [INF] OnActionExecuting: 
+2019-07-05 10:02:54.195 +07:00 [INF] OnActionExecuting: 
+2019-07-05 10:05:16.185 +07:00 [INF] OnActionExecuting: 
+2019-07-05 10:05:51.948 +07:00 [INF] OnActionExecuting: 
+2019-07-05 10:05:55.093 +07:00 [INF] OnActionExecuting: 
+2019-07-05 10:06:07.668 +07:00 [INF] OnActionExecuting: 
+2019-07-05 10:18:59.634 +07:00 [INF] OnActionExecuting: 
+2019-07-05 10:58:12.476 +07:00 [INF] OnActionExecuting: 
+2019-07-05 11:01:32.322 +07:00 [INF] OnActionExecuting: 
+2019-07-05 11:01:42.962 +07:00 [INF] OnActionExecuting: 
+2019-07-05 11:03:13.010 +07:00 [INF] OnActionExecuting: 
+2019-07-05 11:15:57.485 +07:00 [INF] OnActionExecuting: 
+2019-07-05 11:16:00.519 +07:00 [ERR] Something went wrong: AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+User -> ExpireDateViewModels
+ProjectTraining.Models.User -> ProjectTraining.ViewModels.ExpireDateViewModels
+   at lambda_method(Closure , User , ExpireDateViewModels , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source) in C:\projects\automapper\src\AutoMapper\Mapper.cs:line 212
+   at ProjectTraining.Services.UserService.GetUserById(Int32 id) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Services/UserService.cs:line 104
+   at ProjectTraining.Controllers.AccountController.AccountRenewal() in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Controllers/AccountController.cs:line 112
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at ProjectTraining.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Middleware/ExceptionHandlerMiddleware.cs:line 37
+2019-07-05 11:16:00.520 +07:00 [INF] 200
+2019-07-05 11:16:58.470 +07:00 [INF] OnActionExecuting: 
+2019-07-05 11:17:00.542 +07:00 [ERR] Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+User -> ExpireDateViewModels
+ProjectTraining.Models.User -> ProjectTraining.ViewModels.ExpireDateViewModels
+
+Type Map configuration:
+User -> ExpireDateViewModels
+ProjectTraining.Models.User -> ProjectTraining.ViewModels.ExpireDateViewModels
+
+Destination Member:
+ExpireDate
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DateTime -> Int32
+System.DateTime -> System.Int32
+   at lambda_method(Closure , DateTime , Int32 , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IRuntimeMapper.Map[TSource,TDestination](TSource source, TDestination destination, ResolutionContext context, IMemberMap memberMap) in C:\projects\automapper\src\AutoMapper\Mapper.cs:line 377
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination, IMemberMap memberMap) in C:\projects\automapper\src\AutoMapper\ResolutionContext.cs:line 196
+   at lambda_method(Closure , User , ExpireDateViewModels , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , User , ExpireDateViewModels , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source) in C:\projects\automapper\src\AutoMapper\Mapper.cs:line 212
+   at ProjectTraining.Services.UserService.GetUserById(Int32 id) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Services/UserService.cs:line 104
+   at ProjectTraining.Controllers.AccountController.AccountRenewal() in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Controllers/AccountController.cs:line 111
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at ProjectTraining.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Middleware/ExceptionHandlerMiddleware.cs:line 37
+2019-07-05 11:17:00.543 +07:00 [INF] 200
+2019-07-05 11:22:48.505 +07:00 [INF] OnActionExecuting: 
+2019-07-05 11:22:52.857 +07:00 [INF] OnActionExecuting: 
+2019-07-05 11:22:57.947 +07:00 [INF] OnActionExecuting: 
+2019-07-05 11:50:47.778 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-05 11:50:56.002 +07:00 [ERR] Something went wrong: AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+User -> ExpireDateViewModels
+ProjectTraining.Models.User -> ProjectTraining.ViewModels.ExpireDateViewModels
+
+Type Map configuration:
+User -> ExpireDateViewModels
+ProjectTraining.Models.User -> ProjectTraining.ViewModels.ExpireDateViewModels
+
+Destination Member:
+ExpireDate
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DateTime -> Int32
+System.DateTime -> System.Int32
+   at lambda_method(Closure , DateTime , Int32 , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IRuntimeMapper.Map[TSource,TDestination](TSource source, TDestination destination, ResolutionContext context, IMemberMap memberMap) in C:\projects\automapper\src\AutoMapper\Mapper.cs:line 377
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination, IMemberMap memberMap) in C:\projects\automapper\src\AutoMapper\ResolutionContext.cs:line 196
+   at lambda_method(Closure , User , ExpireDateViewModels , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , User , ExpireDateViewModels , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source) in C:\projects\automapper\src\AutoMapper\Mapper.cs:line 212
+   at ProjectTraining.Services.UserService.GetUserById(Int32 id) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Services/UserService.cs:line 104
+   at ProjectTraining.Controllers.AccountController.AccountRenewal() in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Controllers/AccountController.cs:line 123
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at ProjectTraining.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Middleware/ExceptionHandlerMiddleware.cs:line 37
+2019-07-05 11:50:56.002 +07:00 [INF] 200
+2019-07-05 11:51:04.683 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-05 11:52:33.347 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-05 12:34:39.038 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-05 12:34:59.409 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-05 12:35:15.177 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-05 12:35:20.014 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-05 12:35:35.987 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData

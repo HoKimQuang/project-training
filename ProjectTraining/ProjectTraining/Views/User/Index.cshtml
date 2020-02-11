@@ -1,0 +1,136 @@
+﻿@model IEnumerable<ProjectTraining.ViewModels.UserViewModel>
+
+@{
+//    ViewData["Title"] = "Index";
+@*     @TempData["CreateSuccess"] *@
+    Layout = "_Layout";
+}
+
+<div class="row">
+    @if (TempData["CreateSuccess"] != null)
+    {
+        <h3 style="text-align: center" class="alert alert-success">@TempData["CreateSuccess"]</h3>
+    }
+   
+    <div>
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">Data Table With Full Features</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <table id="table1" class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Id)</th>
+                        <th>@Html.DisplayNameFor(model => model.UserName)</th>
+                        <th>@Html.DisplayNameFor(model => model.Password)</th>
+                        <th>@Html.DisplayNameFor(model => model.Role)</th>
+                        <th>@Html.DisplayNameFor(model => model.CreateDate)</th>
+
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tfoot>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Id)</th>
+                        <th>@Html.DisplayNameFor(model => model.UserName)</th>
+                        <th>@Html.DisplayNameFor(model => model.Password)</th>
+                        <th>@Html.DisplayNameFor(model => model.Role)</th>
+                        <th>@Html.DisplayNameFor(model => model.CreateDate)</th>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <!-- /.box-body -->
+        </div>
+        <!-- /.box -->
+    </div>
+    <!-- /.col -->
+</div>
+<!-- /.row -->
+<p>
+    <a asp-action="Create" class="btn btn-bitbucket" >Create New</a>
+</p>
+
+<!-- page script -->
+
+@section scripts
+{
+    <script src="js/moment.js"></script>
+    <script>
+        $(document).ready(function() {
+            
+            $("#table1").DataTable({
+                // Design Assets
+                stateSave: true,
+                autoWidth: true,
+                // ServerSide Setups
+                processing: true,
+                serverSide: true,
+                // Paging Setups
+                paging: true,
+                // Searching Setups
+                searching: { regex: true },
+                // Ajax Filter
+                ajax: {
+                    url: "/User/LoadTable",
+                    type: "POST",
+                    contentType: "application/json",
+                    dataType: "json",
+                    data: function (d) {
+                        return JSON.stringify(d);
+                    }
+                },
+                // Columns Setups
+                columns: [
+                    { data: "Id" },
+                    { data: "UserName" },
+                    { data: "Password" },
+                    { data: "Role" },
+                    {
+                        data: "CreateDate",
+                        render: function (data, type) {
+                            // If display or filter data is requested, format the date
+                            if (type === "display" || type === "filter") {
+                                return moment(data).format("ddd DD/MM/YYYY HH:mm:ss");
+                            }
+                            // Otherwise the data type requested (`type`) is type detection or
+                            // sorting data, for which we want to use the raw date value, so just return
+                            // that, unaltered
+                            return data;
+                        }
+                    },
+                    {
+                        "mData": "Id",
+                        "mRender": function(data) {
+                            url = "<a href=\"User\\Details\\" + data + "\"" + "class=\"btn btn-primary\" " + ">Detail</a>|" +
+                                "<a href=\"User\\Edit\\" + data + "\"" + "class=\"btn btn-primary\" " + ">Edit</a>|" +
+                                "<a onclick=\"return confirm(' you want to delete?');\" + href=\"User\\DeleteConfirmed\\" + data + "\"" + "class=\"btn btn-danger\" " + ">Delete</a>";
+                            return url;
+                    }
+            }
+               
+                ],
+                // Column Definitions
+                columnDefs: [
+                    { targets: "no-sort", orderable: false },
+                    { targets: "no-search", searchable: false },
+                    {
+                        targets: "trim",
+                        render: function (data, type) {
+                            if (type === "display") {
+                                data = strtrunc(data, 10);
+                            }
+
+                            return data;
+                        }
+                    },
+                    { targets: "date-type", type: "date-eu" }
+                    
+                ]
+            });
+         
+        } );
+    </script>
+}

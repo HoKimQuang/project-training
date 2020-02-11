@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/local/3SI/quang.hk/.dotnet/store/|arch|/|tfm|",
+      "/home/local/3SI/quang.hk/.nuget/packages",
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+2019-07-04 13:12:24.765 +07:00 [ERR] Tên đăng nhập hoặc mật khẩu không đúng
+2019-07-04 13:29:33.329 +07:00 [INF] OnActionExecuting: 
+2019-07-04 13:29:33.449 +07:00 [ERR] Something went wrong: System.NotImplementedException: The method or operation is not implemented.
+   at ProjectTraining.Filters.ExpireDateUserFilter.OnActionExecuted(ActionExecutedContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Filters/ExpireDateUserFilter.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at ProjectTraining.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Middleware/ExceptionHandlerMiddleware.cs:line 37
+2019-07-04 13:29:33.450 +07:00 [INF] 200
+2019-07-04 13:30:34.589 +07:00 [INF] OnActionExecuting: 
+2019-07-04 13:30:34.705 +07:00 [ERR] Something went wrong: System.NotImplementedException: The method or operation is not implemented.
+   at ProjectTraining.Filters.ExpireDateUserFilter.OnActionExecuted(ActionExecutedContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Filters/ExpireDateUserFilter.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at ProjectTraining.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Middleware/ExceptionHandlerMiddleware.cs:line 37
+2019-07-04 13:30:34.706 +07:00 [INF] 200
+2019-07-04 13:31:16.459 +07:00 [INF] OnActionExecuting: 
+2019-07-04 13:33:02.273 +07:00 [INF] OnActionExecuting: 
+2019-07-04 13:33:03.006 +07:00 [INF] OnActionExecuting: 
+2019-07-04 13:33:03.536 +07:00 [INF] OnActionExecuting: 
+2019-07-04 13:33:03.939 +07:00 [INF] OnActionExecuting: 
+2019-07-04 13:40:38.215 +07:00 [INF] OnActionExecuting: 
+2019-07-04 13:40:39.436 +07:00 [INF] OnActionExecuting: 
+2019-07-04 13:40:39.961 +07:00 [INF] OnActionExecuting: 
+2019-07-04 13:40:40.162 +07:00 [INF] OnActionExecuting: 
+2019-07-04 13:42:29.856 +07:00 [INF] OnActionExecuting: 
+2019-07-04 13:42:29.926 +07:00 [ERR] 401! Unauthorized
+2019-07-04 13:49:24.249 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:28:14.486 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:28:17.754 +07:00 [ERR] 404! Page not found
+2019-07-04 14:30:24.047 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:31:17.210 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:33:34.352 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:35:45.079 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:37:00.428 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:37:02.423 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:38:23.095 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:38:38.311 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:38:39.241 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:39:18.795 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:47:48.393 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:49:09.441 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:51:08.052 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:51:42.784 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:51:43.569 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:51:45.391 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:51:46.707 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:51:47.869 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:51:49.160 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:54:48.524 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:56:56.440 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:58:55.131 +07:00 [INF] OnActionExecuting: 
+2019-07-04 14:58:55.274 +07:00 [ERR] Something went wrong: System.InvalidOperationException: The view 'FillterExp/Expired1' was not found. The following locations were searched:
+/Views/FillterExp/FillterExp/Expired1.cshtml
+/Views/Shared/FillterExp/Expired1.cshtml
+/Pages/Shared/FillterExp/Expired1.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at ProjectTraining.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Middleware/ExceptionHandlerMiddleware.cs:line 37
+2019-07-04 14:58:55.275 +07:00 [INF] 200
+2019-07-04 14:59:01.929 +07:00 [ERR] 404! Page not found
+2019-07-04 14:59:04.592 +07:00 [ERR] 404! Page not found
+2019-07-04 15:01:40.356 +07:00 [INF] OnActionExecuting: 
+2019-07-04 15:01:43.723 +07:00 [INF] OnActionExecuting: 
+2019-07-04 15:01:44.501 +07:00 [INF] OnActionExecuting: 
+2019-07-04 15:08:36.444 +07:00 [INF] OnActionExecuting: 
+2019-07-04 15:16:39.495 +07:00 [INF] OnActionExecuting: 
+2019-07-04 15:16:39.632 +07:00 [ERR] Something went wrong: System.InvalidOperationException: The view 'Expired' was not found. The following locations were searched:
+/Views/FillterExp/Expired.cshtml
+/Views/Shared/Expired.cshtml
+/Pages/Shared/Expired.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at ProjectTraining.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Middleware/ExceptionHandlerMiddleware.cs:line 37
+2019-07-04 15:16:39.633 +07:00 [INF] 200
+2019-07-04 15:17:11.639 +07:00 [INF] OnActionExecuting: 
+2019-07-04 15:17:18.791 +07:00 [INF] OnActionExecuting: 
+2019-07-04 15:17:19.679 +07:00 [INF] OnActionExecuting: 
+2019-07-04 15:17:19.934 +07:00 [INF] OnActionExecuting: 
+2019-07-04 15:17:20.167 +07:00 [INF] OnActionExecuting: 
+2019-07-04 15:17:20.382 +07:00 [INF] OnActionExecuting: 
+2019-07-04 15:17:20.574 +07:00 [INF] OnActionExecuting: 
+2019-07-04 15:18:10.992 +07:00 [ERR] 404! Page not found
+2019-07-04 15:18:13.403 +07:00 [ERR] 404! Page not found
+2019-07-04 15:18:14.542 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:20:24.778 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:22:14.466 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:24:11.142 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:27:53.764 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:27:53.862 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:47:40.506 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:47:46.817 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:47:48.562 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:51:12.239 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:51:39.250 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:52:16.099 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:53:37.382 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:53:37.518 +07:00 [INF] OnActionExecuting: 
+2019-07-04 16:55:56.178 +07:00 [ERR] Something went wrong: System.InvalidOperationException: No service for type 'ProjectTraining.Filters.ExpireDateUserFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Internal.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at ProjectTraining.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Middleware/ExceptionHandlerMiddleware.cs:line 37
+2019-07-04 16:55:56.257 +07:00 [INF] 200
+2019-07-04 16:57:18.837 +07:00 [ERR] Something went wrong: System.InvalidOperationException: No service for type 'ProjectTraining.Filters.ExpireDateUserFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Internal.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Internal.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcEndpointDataSource.<>c__DisplayClass21_0.<CreateEndpoint>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at ProjectTraining.Middleware.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /home/local/3SI/quang.hk/RiderProjects/intern-2019-01-net-011/ProjectTraining/ProjectTraining/Middleware/ExceptionHandlerMiddleware.cs:line 37
+2019-07-04 16:57:18.897 +07:00 [INF] 200
+2019-07-04 17:00:47.924 +07:00 [INF] OnActionExecuting: 
+2019-07-04 17:00:47.929 +07:00 [INF] OnActionExecuting: 
+2019-07-04 17:24:21.758 +07:00 [INF] OnActionExecuting: 
+2019-07-04 17:24:24.234 +07:00 [INF] OnActionExecuting: 
+2019-07-04 17:25:33.614 +07:00 [INF] OnActionExecuting: 
+2019-07-04 17:25:43.591 +07:00 [INF] OnActionExecuting: 
+2019-07-04 17:25:45.639 +07:00 [INF] OnActionExecuting: 
+2019-07-04 17:26:32.486 +07:00 [INF] OnActionExecuting: 
+2019-07-04 17:26:49.516 +07:00 [INF] OnActionExecuting: 
+2019-07-04 17:26:51.399 +07:00 [INF] OnActionExecuting: 

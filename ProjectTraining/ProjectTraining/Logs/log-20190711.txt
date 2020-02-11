@@ -1,0 +1,4 @@
+2019-07-11 11:55:30.719 +07:00 [ERR] 400! Bad Request
+2019-07-11 13:57:13.920 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-11 13:57:16.870 +07:00 [INF] OnActionExecuting: Microsoft.AspNetCore.Routing.RouteData
+2019-07-11 13:57:33.670 +07:00 [ERR] 401! Unauthorized

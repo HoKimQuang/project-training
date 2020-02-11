@@ -1,0 +1,19 @@
+2019-07-02 10:17:21.017 +07:00 [ERR] Day la mot cai Log Error
+2019-07-02 10:22:08.152 +07:00 [ERR] Tên đăng nhập hoặc mật khẩu không đúng
+2019-07-02 10:29:11.973 +07:00 [INF] CreateSuccess ProjectTraining.Models.User
+2019-07-02 16:42:13.937 +07:00 [ERR] loi Page not found
+2019-07-02 16:42:14.098 +07:00 [ERR] /efsg
+2019-07-02 16:53:06.848 +07:00 [ERR] Page not found
+2019-07-02 16:54:34.196 +07:00 [ERR] Page not found/123456987
+2019-07-02 16:59:25.045 +07:00 [ERR] Page not found/123456987
+2019-07-02 16:59:45.996 +07:00 [ERR] Page not found/123456987
+2019-07-02 17:00:18.526 +07:00 [ERR] Page not found/User/Edit/
+2019-07-02 17:13:19.887 +07:00 [ERR] Tên đăng nhập hoặc mật khẩu không đúng
+2019-07-02 17:15:26.740 +07:00 [ERR] Page not found
+2019-07-02 17:15:26.808 +07:00 [INF] /Account/AccessDenied
+2019-07-02 17:29:32.314 +07:00 [ERR] Page not found
+2019-07-02 17:29:32.379 +07:00 [INF] /User/Edit/
+2019-07-02 17:44:14.320 +07:00 [ERR] Page not found
+2019-07-02 17:44:14.496 +07:00 [INF] /test123
+2019-07-02 17:57:47.738 +07:00 [ERR] Page not found
+2019-07-02 17:57:47.812 +07:00 [INF] /123698554

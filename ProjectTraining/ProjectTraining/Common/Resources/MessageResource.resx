@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+
+    <!-- Error Messege UseName Validate -->
+    <data name="UserNameNotNull" xml:space="preserve">
+    <value>Tên đăng nhập không được bỏ trống</value>
+  </data>
+    <data name="UserNameMaxLegth">
+        <value>Tên đăng nhập có độ dài tối đa là 30</value>
+    </data>
+
+    <!-- Messege Password Validate -->
+    <data name="PasswordNotNull" xml:space="preserve">
+    <value>Mật khẩu không được bỏ trống</value>
+  </data>
+    <data name="PasswordMinLength">
+        <value>Mật khẩu phải có tối thiếu 5 kí tự</value>
+    </data>
+    <data name="PasswordMaxlength">
+        <value>Mật khẩu có độ dài tối đa là 30</value>
+    </data>
+
+    <!-- Messege AccountController -->
+    <data name="AccountLoginFailed" xml:space="preserve">
+    <value>Tên đăng nhập hoặc mật khẩu không đúng</value>
+  </data>
+    
+    <data name="CreateSuccess" xml:space="preserve">
+    <value>Dữ liệu được thêm thành công</value>
+  </data>
+
+</root>
